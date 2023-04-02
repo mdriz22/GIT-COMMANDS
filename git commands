@@ -1,0 +1,37 @@
+# clone #
+
+git clone url
+
+-------------------------------------------------------------------------------------------------------------------------------
+# basic processes #
+
+git init
+git add
+git status
+git commit -m ".."
+git status
+git remote add origin https://github.com/username/repository.git
+git push -u origin branch_name
+
+--------------------------------------------------------------------------------------------------------------------------------
+# pull #
+
+git pull
+
+---------------------------------------------------------------------------------------------------------------------------------
+## branches ##
+
+git branch
+git checkout -b "branch_name" # create new branch #
+git checkout "branch_name"  # move to another branch that exist #
+
+git merge branch_name    # to merge to branches #
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+#  reset #
+
+git reset--hard<commit  hash>   #  change to desire commit #
+
+git reset--hard origin/master  # use branch to name to switch to branch #
+
